@@ -19,3 +19,13 @@ git stash pop
 git stash clear
 
 git push origin master
+
+Steps to create new branch locally and pushing to merge
+
+git checkout -b <new branch name>
+
+git add .
+
+git commit -m "message"
+
+git push origin <new branch name>
