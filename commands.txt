@@ -1,0 +1,21 @@
+git init
+git status
+touch <filename.extn>
+rm -rf <filename>
+git add .
+git add <filename.extn>
+git commit -m “message”
+git restore --staged <filename.extn> 
+git reset <commit hash id>
+git log
+git reset --hard d2161f4e48e83a04238983415d04254f72d11832
+
+Stashing – creating a local work copy without dependency on repository
+Adds all the changes and maintains in a separate track if required can be used else removed
+Pop – is used to merge the stashed changes with the staging area
+Clear – is used to remove all the stashed changes
+git stash
+git stash pop
+git stash clear
+
+git push origin master
